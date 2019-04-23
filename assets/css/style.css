@@ -239,20 +239,15 @@ label {
 }
 
 
-@media only screen and (max-width: 980px) {
-
-    .foot{
-        top: 850px;
-
-    }
-
-}
-
-
 @media only screen and (max-width: 768px) {
 
     .foot{
         top: 900px;
+
+    }
+
+    .container {
+        max-width: 100%;
 
     }
 
@@ -268,8 +263,17 @@ label {
 
     header {
         position: static;
+        overflow: visible;
+       
 
     }
 
+    nav ul {
+        align-content: center;
+        float: left;
+        
+    }
+
 }
+
 
