@@ -31,6 +31,7 @@ body {
     content: "";
     display: block;
     clear: both;
+    
 }
 
 .container {
@@ -54,7 +55,6 @@ header::after {
     content: '';
     display: table;
     clear: both;
-    
     
 }
 
@@ -95,7 +95,6 @@ nav ul li a {
     text-decoration: none;
     color: #777777;
     
-
 }
 
 /* Content header css */
@@ -107,11 +106,13 @@ h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+
 }
 
 .borderCENTER {
     border-bottom: 2px solid #dddddd;
     padding: 15px;
+
 }
 
 /* About page css */
@@ -156,14 +157,10 @@ p {
 form {
     margin: 0 25px;
     
-    
-    
 }
 
 label {
     font-size: 20px;
-    
-    
 
 }
 
@@ -186,7 +183,6 @@ label {
     align-content: center;
     text-decoration: none;
     
-
 }
 
 #submit-text {
@@ -198,14 +194,10 @@ label {
     background-color: #4aaaa5;
     width: 75px;
     height: 16px;
+
 }
 
 /*Portfolio css section  */
-
-.box-container {
-   
-
-}
 
 .Port-Pics {
     position: relative;
@@ -213,7 +205,6 @@ label {
     float: left;
    
     padding-left: 25px;
-
 
 }
 
@@ -236,6 +227,11 @@ label {
     left: 10px;
     margin-left: 15px;
 
+}
+
+#box1 {
+    width: 125px;
+    height: 125px;
 }
 
 
@@ -265,7 +261,6 @@ label {
         position: static;
         overflow: visible;
        
-
     }
 
     nav ul {
